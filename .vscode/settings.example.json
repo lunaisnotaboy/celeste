@@ -1,0 +1,7 @@
+{
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src/"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal"
+}
