@@ -1,0 +1,22 @@
+.titlebar {
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  user-select: none;
+
+  &Button {
+    align-items: center;
+    display: inline-flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+}

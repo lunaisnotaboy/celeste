@@ -14,10 +14,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
+    "modern-normalize": "^2.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tauri-plugin-store-api": "https://github.com/tauri-apps/tauri-plugin-store#v1"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
     "@types/eslint": "^8.40.1",
     "@types/node": "^20.3.0",
     "@types/react": "^18.2.11",
@@ -30,6 +34,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "prettier": "^2.8.8",
+    "sass": "^1.63.4",
     "typescript": "5.0.4",
     "vite": "^4.3.9"
   }

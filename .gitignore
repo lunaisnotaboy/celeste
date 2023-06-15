@@ -18,6 +18,8 @@
 /dist-ssr
 /logs
 /node_modules
+/src-tauri/.cargo
+/src-tauri/target
 /various
 *.local
 *.log

@@ -1,0 +1,24 @@
+[package]
+name = 'app'
+version = '0.1.0'
+description = 'A modern client for Matrix'
+authors = ['Luna Nova <her@mint.lgbt>']
+license = 'AGPL-3.0'
+repository = 'https://git.mint.lgbt/celeste/celeste'
+default-run = 'app'
+edition = '2021'
+rust-version = '1.60'
+
+[build-dependencies]
+tauri-build = { features = [], version = '1.4.0' }
+
+[dependencies]
+serde = { features = ['derive'], version = '1.0' }
+serde_json = '1.0'
+tauri = { features = ["window-close", "window-hide", "window-maximize", "window-minimize", "window-show", "window-start-dragging", "window-unmaximize", "window-unminimize"], version = '1.4.0' }
+tauri-plugin-store = { branch = 'v1', git = 'https://github.com/tauri-apps/plugins-workspace' }
+window-shadows = '0.2.1'
+window-vibrancy = '0.3.2'
+
+[features]
+custom-protocol = ['tauri/custom-protocol']
